@@ -4,11 +4,12 @@ import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Hero from "@/components/baniere";
+import Hero from "../components/baniere";
 import Script from "next/script";
-import Footer from "@/components/footer";
-import AvantagesCard from '@/components/cardadvantagecompetitive';
-import Missioncard from '@/components/cardmission';
+import Footer from "../components/footer";
+
+import AvantagesCard from '../components/cardadvantagecompetitive';
+import Missioncard from '../components/cardmission';
 import * as Iconsfi from "react-icons/fi";
 import * as Iconsfa from "react-icons/fa6";
 import * as Iconsfc from "react-icons/fc";

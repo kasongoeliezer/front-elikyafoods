@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Hero from "@/components/baniere";
+import styles from "/styles/Home.module.css";
+import Hero from "../components/baniere";
 import Script from "next/script";
-import Footer from "@/components/footer";
+import Footer from "../components/footer";
 import MainHeader from "@/components/header";
 
 import * as Iconsfi from "react-icons/fi";

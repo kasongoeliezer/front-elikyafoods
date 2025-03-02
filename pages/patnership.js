@@ -4,8 +4,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/components/baniere";
 import Script from "next/script";
-import Footer from "@/components/footer";
-import MainHeader from "@/components/header";
+import Footer from "../components/footer";
+import MainHeader from "../components/header";
 
 import * as Iconsfi from "react-icons/fi";
 import * as Iconsfa from "react-icons/fa6";
@@ -125,13 +125,18 @@ export default function soustainability({
         </div> 
            </div>  
 
-      <div className="zoneContact bg-cover-norepeat" style={{backgroundImage: 'url(/sites_images/font.webp)'}}>
-      <div className="absoluteContainer"> 
-        <a href="/contact">  <button className="btn btn-danger" style={{backgroundColor:"inherit",color:"#00000"}}>Contacts</button> </a>     
-      </div> 
-      </div>       
+          
     </main>
-    <Footer/>
+    <Footer
+      phone1={configs.telephone1} 
+      phone2={configs.telephone2} 
+      adresse={configs.adressephysique}
+      facebook={configs.facebook}
+      twitter={configs.twitter}
+      linkendin={configs.linkedin}
+      email={configs.email}  
+      about_us= {banner.descriptionduprogramme}
+    />
   </div>
 </>
 );
