@@ -15,7 +15,7 @@ return (
         <div className="col-12 col-lg-6 col-md-6 footer-about">
           <a href="/" className="logo d-flex align-items-center">
             <span className="sitename">
-              <img src="sites_images/logo_elikyafoods.png" alt="Elikyafoods" height="320px" />
+              <img src="/sites_images/logo_elikyafoods.PNG" alt="Elikyafoods" height="320px" />
             </span>
           </a>
           <div className="footer-contact pt-1 pr-4">        
