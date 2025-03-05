@@ -64,7 +64,7 @@ return (
           © Copyright <strong><span>Elikya foods 2025</span></strong>. All Rights Reserved
         </div>
         <div className="credits">
-          Designed by <a href="#">Eliezer kasongo</a>
+          Designed by <a href="https://kasongoeliezer.vercel.app/">Eliezer kasongo</a>
         </div>
       </div>
 
