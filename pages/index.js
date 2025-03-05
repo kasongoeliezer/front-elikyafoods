@@ -186,9 +186,9 @@ export default function Home({
         <p>
         {onecommitment.description_commitement}
         </p>
-        <button className="btn btn-danger">
+        <a href="/patnership" className="btn btn-danger">
           View more.
-        </button>
+        </a>
       </div>
         </div>      
       </section>
