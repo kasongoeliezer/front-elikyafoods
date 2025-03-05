@@ -14,7 +14,7 @@ const MainHeader = () => {
     <header  className="header d-flex align-items-center position-relative">
         <div className="container container-xl position-relative d-flex align-items-center justify-content-between">
           <a href="#" className="logo d-flex align-items-center">
-          <img src="sites_images/logo_elikyafoods.png" alt="Elikyafoods" height="320px"/> 
+          <img src="/sites_images/logo.png" alt="Elikyafoods" height="320px"/> 
           </a>
           <span className="navbar_def"> 
           <nav className="navmenu">
